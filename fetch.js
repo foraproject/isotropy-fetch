@@ -1,9 +1,10 @@
 (function(self) {
   'use strict';
 
-  if (self.fetch) {
-    return
-  }
+  // JES: Overwrite unconditionally.
+  // if (self.fetch) {
+  //   return
+  // }
 
   function normalizeName(name) {
     if (typeof name !== 'string') {
@@ -381,4 +382,5 @@
     })
   }
   self.fetch.polyfill = true
+
 })(typeof self !== 'undefined' ? self : this);

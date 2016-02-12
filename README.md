@@ -1,3 +1,7 @@
+# What's this?
+A port of whatwg-fetch, that overwrites fetch unconditionally to work with isotropy in-browser servers.
+If you aren't using the isotropy framework, you shouldn't be using this.
+
 # window.fetch polyfill
 
 This project adheres to the [Open Code of Conduct][code-of-conduct]. By participating, you are expected to uphold this code.
